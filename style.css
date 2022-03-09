@@ -85,7 +85,6 @@ nav ul li a{
 }
 .white-sp{
     padding-bottom: 30vh;
-    overflow: auto;
     background-color: white;
 
 }
@@ -133,7 +132,6 @@ padding-bottom: 2rem;
 
 .red-sp{
     padding-bottom: 15vh;
-    overflow: auto;
     background-color: #9b111e;
 
 }
@@ -151,7 +149,7 @@ padding-bottom: 2rem;
 }
 .white-spa{
     padding: 3rem;
-    overflow: auto;
+    display: flex;
 }
     
 
@@ -174,9 +172,37 @@ padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     
 }
+.Work h2{
+    text-align: center;
+}
+
+
+#pdf-img{
+    width: 100px;
+}
+
+#work-img{
+    width: 80%;
+    padding-left: 6.3rem;
+    display: flex;
+}
+#study-img{
+    width: 80%;
+    padding-left: 6.3rem;
+    display: flex;
+}
+.Work h2{
+    padding-bottom: 1rem;
+}
 #work-his{
-    margin: 10%;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.red-sp{
+    margin: 5%;
 }
