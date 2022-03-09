@@ -1,0 +1,182 @@
+/* Global style */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*Nav bar and header*/
+
+nav{
+    background-color:#9b111e;
+    font-size: 19px;
+  
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+ 
+    
+
+    
+}
+nav ul li{
+    padding:  1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 2rem;
+     
+
+
+
+
+
+}
+
+nav ul  :nth-child(2){
+    background-color: white;
+
+}
+nav ul  :nth-child(3){
+    background-color:white;
+
+}
+nav ul  :nth-child(4){
+    background-color:white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    
+
+}
+
+#h1-head{
+    background-color:#9b111e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.3rem;
+    font-size: 30px;
+    padding-top: 6rem;
+    
+    
+}
+#h1-head h1{
+    background-color: white;
+    padding: 70px;
+    font-weight:normal;
+    border-radius: 5%;
+    text-align: left;
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.white-sp{
+    padding-bottom: 30vh;
+    overflow: auto;
+    background-color: white;
+
+}
+
+.about-me-id{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+justify-content: center;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+.h2-index{
+    text-align:center;
+    padding: 1rem;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.h2-index div{
+    text-align: center;
+  
+
+}
+
+
+
+.img{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+  
+ 
+
+}
+.img a { 
+ justify-content: space-between;
+ padding: 0 0.5rem;
+  
+
+}
+
+.red-sp{
+    padding-bottom: 15vh;
+    overflow: auto;
+    background-color: #9b111e;
+
+}
+
+
+
+#contact-ques{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    background-color: #9b111e;
+    text-align: center;
+}
+#contact-ques div{
+    padding-bottom: 2rem;
+}
+.white-spa{
+    padding: 3rem;
+    overflow: auto;
+}
+    
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #9b111e;
+}
+.footer img{
+    width:100px;
+    height:80px;
+}
+
+/*Work Section*/
+
+.Work div{
+    padding-bottom: 3rem;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+#work-his{
+    margin: 10%;
+}
