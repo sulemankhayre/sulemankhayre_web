@@ -299,3 +299,23 @@ padding-bottom: 2rem;
     padding: 1.2rem;
     text-align: center;
 }
+
+/*Blog section */
+
+
+.blog{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.blog img{
+    padding: 4rem;
+    width: 70%;
+}
+
+.blog p{
+    padding: 2rem;
+}
+
