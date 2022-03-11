@@ -30,16 +30,10 @@ nav ul{
 
 
 nav ul li{
-    padding:  1.5rem;
+    padding:  1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5px;
-    padding: 1.2rem;
      
-
-
-
-
-
 }
 
 nav ul  :nth-child(2){
@@ -164,6 +158,7 @@ padding-bottom: 2rem;
     justify-content: center;
     position: sticky;
     align-items: center;
+    background-color: maroon;
   
 }
 .footer img{
@@ -241,6 +236,7 @@ padding-bottom: 2rem;
 /*Interests section */
 .interests{
     background-color: lightgray;
+    flex-wrap: wrap;
 }
 
 #int-grouped{
@@ -273,6 +269,7 @@ padding-bottom: 2rem;
 }
 .skills{
     background-color: lightgray;
+    flex-wrap: wrap;
 }
 .skills p{
     padding: 2rem;
@@ -295,6 +292,7 @@ padding-bottom: 2rem;
 }
 .personality{
     background-color: lightgray;
+    flex-wrap: wrap;
 }
 .personality p{
     padding: 2rem;
@@ -313,12 +311,16 @@ padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 3rem;
+    
 
 }
 
-.blog img{
-    padding: 4rem;
-    width: 70%;
+
+#blog-h2{
+    text-align: center;
+    padding: 3rem;
+    background-color: #9b111e;
 }
 
 .blog p{
@@ -326,37 +328,268 @@ padding-bottom: 2rem;
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 899px) {
+@media only screen and (min-width: 703px) and (max-width: 1496px) {
 
 
     /*nav*/
-
     nav ul li{
-        padding:6rem;
-        overflow: hidden;
+    padding:  4.2rem;
+     
     }
+
+    
     nav ul li a {
-        font-size: 13px;
-        overflow: hidden;
+        font-size: 20px;
 
     }
     /*index page ipad*/
     #h2-contact {
-        font-size: 30px;
-        overflow: hidden;
+        font-size: 25px;
     }
 
     .h2-index {
         padding: 5rem;
-        font-size: 35px;
-}
+        font-size: 45px;
+    }
 
     #pic-me{
-        width: 400px;
+        width: 600px;
+    }
+    #h2-contact{
+        font-size: 60px;
     }
     #contact-form{
-        font-size: 20px;
+        font-size: 35px;
+    }
+     
+    #contact-form input{
+        width: 40rem;
+        height: 10rem;
+    }
+    /*Work page ipad*/
+
+    #work-his li{
+        padding-bottom: 5rem;
+
+    }
+    #study-his li{
+        padding-bottom: 5rem;
+    }
+    .study div h2{
+        padding-bottom: 3rem;
+        font-size: 80px;
+    }
+    .work div h2{
+        padding: 2rem;
+    }
+    .Work h2 {
+        font-size: 80px;
+        padding-bottom: 3rem;
+
+    }
+    .Work div p{
+        font-size: 30px;
+    }
+    #work-his{
+        font-size: 30px;
+    }
+    .study div p{
+        font-size: 30px;
+    }
+    #study-his{
+        font-size: 30px;
+    }
+   
+    /*Experince page ipad*/
+
+    .interests{
+        margin: 5%;
+    }
+    .skills{
+        margin: 5%;
+    }
+    .personality{
+        margin: 5%;
+    }
+    .personality div h2{
+        font-size: 40px;
+    }
+    .skills div h2{
+        font-size: 40px;
+    }
+    
+    .interests div h2{
+        font-size: 40px;
+    }
+        /*Blog page ipad*/
+    #blog-h2{
+    font-size: 2.5rem;
+  
+  
+    }
+    .blog{
+        font-size: 2.5rem;
+        padding: 5rem;
+
+    }
+    .blog img{
+        height: 15rem;
+    }
+    .blog p{
+        padding: 5rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 1497px) {
+    nav ul li {
+        padding: 7.2rem;
+        
+    }
+    nav ul li a {
+    font-size: 100px;
+
+    }
+   /*index page Web*/
+    #h2-contact {
+        font-size: 45px;
+    }
+
+    .h2-index {
+        padding: 10rem;
+        font-size: 120px;
+    }
+
+    #pic-me{
+        width: 1000px;
+    }
+    #contact-form{
+        font-size: 60px;
+    }
+    #contact-form input{
+        width: 50rem;
+        height: 10rem;
+    }
+    #h1-head h1 {
+        font-size: 200px;
+        text-align: center;
     }
     .footer{
+        height: 350px;
+        font-size: 40px;
+
     }
+    .footer img{
+        height: 280px;
+        
+    }
+       /*Work page Web*/
+    #work-his li{
+        padding-bottom: 10rem;
+        font-size: 100px;
+
+    }
+     #study-his li{
+        padding-bottom: 10rem;
+        font-size: 100px;
+    }
+    .study div  h2{
+        padding-bottom: 10rem;
+        font-size: 250px;
+    }
+    .study div  p{
+        padding-bottom: 10rem;
+        font-size: 100px;
+    }
+    .Work div  h2{
+        padding-bottom: 10rem;
+        font-size: 250px;
+    }
+    .Work div  p{
+        padding-bottom: 10rem;
+        font-size: 100px;
+    }
+    #pdf-img{
+        width: 500px;
+        height: 500px;
+    }
+     /*Experince page Web*/
+
+    .interests{
+        margin: 10%;
+        height: 700px;
+    }
+    .skills{
+        margin: 10%;
+        height: 700px;
+    }
+    .personality{
+        margin: 10%;
+        height: 800px;
+    }
+    .personality div h2{
+        font-size: 100px;
+    }
+    .personality p{
+        font-size: 60px;
+    }
+    .skills div h2{
+        font-size: 100px;  
+      }
+    .skills p{
+        font-size: 60px;
+    }
+    
+    .interests div h2{
+        font-size: 100px;
+    }
+     .interests p{
+        font-size: 60px;
+    }
+    #int-grouped img{
+        width: 400px;
+
+    }
+    #skills-grouped img{
+        width: 250px;
+
+    }
+    #perso-grouped img{
+        width: 250px;
+
+    }
+    /*Blog page Web*/
+
+     #blog-h2{
+    font-size: 5.5rem;
+  
+  
+    }
+    .blog{
+        font-size: 5.5rem;
+        padding: 5rem;
+        padding-top: 10rem;
+        padding-bottom: 40rem;
+
+    }
+    .blog img{
+        height: 55rem;
+    }
+    .blog p{
+        padding: 20rem;
+    }
+
+   
+   
+  
+
+   
+
+
+
+    
+
+
+
 }
