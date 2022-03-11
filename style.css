@@ -7,12 +7,16 @@
 
 }
 
+html, body {
+  overflow-x:hidden 
+} 
+/*index page*/
+
 
 /*Nav bar and header*/
 
 nav{
     background-color:#9b111e;
-    font-size: 19px;
   
 }
 nav ul{
@@ -20,18 +24,16 @@ nav ul{
     list-style: none;
     align-items: center;
     justify-content: center;
-    width: 100%;
     
- 
-    
-
     
 }
+
+
 nav ul li{
     padding:  1.5rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    padding: 2rem;
+    font-size: 5px;
+    padding: 1.2rem;
      
 
 
@@ -55,7 +57,7 @@ nav ul  :nth-child(4){
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 10.5px;
     font-weight: bolder;
     
 
@@ -105,7 +107,7 @@ padding-bottom: 2rem;
 .h2-index{
     text-align:center;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 17px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 
@@ -142,7 +144,6 @@ padding-bottom: 2rem;
 
 
 #contact-ques{
-    padding-bottom: 1rem;
     padding-top: 2rem;
     background-color: #9b111e;
     text-align: center;
@@ -157,15 +158,20 @@ padding-bottom: 2rem;
     
 
 
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
-    background-color: #9b111e;
+    position: sticky;
+    align-items: center;
+  
 }
 .footer img{
-    width:100px;
-    height:80px;
+    padding-bottom: 3rem;
 }
+
+
+
 
 /*Work Page*/
 
@@ -319,3 +325,38 @@ padding-bottom: 2rem;
     padding: 2rem;
 }
 
+
+@media only screen and (min-width: 401px) and (max-width: 899px) {
+
+
+    /*nav*/
+
+    nav ul li{
+        padding:6rem;
+        overflow: hidden;
+    }
+    nav ul li a {
+        font-size: 13px;
+        overflow: hidden;
+
+    }
+    /*index page ipad*/
+    #h2-contact {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .h2-index {
+        padding: 5rem;
+        font-size: 35px;
+}
+
+    #pic-me{
+        width: 400px;
+    }
+    #contact-form{
+        font-size: 20px;
+    }
+    .footer{
+    }
+}
