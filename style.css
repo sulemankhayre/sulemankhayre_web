@@ -1,595 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 /* Global style */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-  overflow-x:hidden 
-} 
+html,
+body {
+  overflow-x: hidden;
+}
 /*index page*/
-
 
 /*Nav bar and header*/
 
-nav{
-    background-color:#9b111e;
-  
+nav {
+  background-color: #9b111e;
 }
-nav ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    
-    
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
-
-nav ul li{
-    padding:  1.2rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5px;
-     
+nav ul li {
+  padding: 1.2rem;
+  font-family: "Hubballi", cursive;
+  font-size: 25px;
 }
 
-nav ul  :nth-child(2){
-    background-color: white;
-
+nav ul :nth-child(2) {
+  background-color: white;
 }
-nav ul  :nth-child(3){
-    background-color:white;
-
+nav ul :nth-child(3) {
+  background-color: white;
 }
-nav ul  :nth-child(4){
-    background-color:white;
+nav ul :nth-child(4) {
+  background-color: white;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 10.5px;
-    font-weight: bolder;
-    
-
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 10.5px;
+  font-weight: bold;
 }
 
 /*Main Content*/
 
-
-#h1-head{
-    background-color:#9b111e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4.3rem;
-    font-size: 30px;
-    padding-top: 6rem;
-    
-    
-}
-#h1-head h1{
-    background-color: white;
-    padding: 70px;
-    font-weight:normal;
-    border-radius: 5%;
-    text-align: left;
-    background-color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-
-}
-.white-sp{
-    padding-bottom: 30vh;
-    background-color: white;
-
-}
-
-.about-me-id{
-display: flex;
-flex-direction: column;
-width: 100%;
-align-items: center;
-justify-content: center;
-padding-top: 2rem;
-padding-bottom: 2rem;
-
-}
-.h2-index{
-    text-align:center;
-    padding: 1rem;
-    font-size: 17px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-
-}
-.h2-index div{
-    text-align: center;
-  
-
-}
-
-
-
-.img{
-    display: flex;
+#h1-head {
+  background-color: #9b111e;
+  display: flex;
   justify-content: center;
-    align-items: center;
-  
- 
-
+  align-items: center;
+  padding: 4.3rem;
+  font-size: 30px;
+  padding-top: 6rem;
 }
-.img a { 
- justify-content: space-between;
- padding: 0 0.5rem;
-  
-
+#h1-head h1 {
+  background-color: white;
+  padding: 70px;
+  font-weight: normal;
+  border-radius: 5%;
+  text-align: left;
+  background-color: white;
+  font-family: "Hubballi", cursive;
+}
+.white-sp {
+  padding-bottom: 30vh;
+  background-color: white;
 }
 
-.red-sp{
-    padding-bottom: 15vh;
-    background-color: #9b111e;
-
+.about-me-id {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.h2-index {
+  text-align: center;
+  padding: 1rem;
+  font-size: 17px;
+  font-family: "Hubballi", cursive;
+}
+.h2-index div {
+  text-align: center;
 }
 
-
-
-#contact-ques{
-    padding-top: 2rem;
-    background-color: #9b111e;
-    text-align: center;
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#contact-ques div{
-    padding-bottom: 2rem;
+.img a {
+  justify-content: space-between;
+  padding: 0 0.5rem;
 }
-.white-spa{
-    padding: 3rem;
-    display: flex;
+
+.red-sp {
+  padding-bottom: 15vh;
+  background-color: #9b111e;
 }
-    
 
-
+#contact-ques {
+  padding-top: 2rem;
+  background-color: #9b111e;
+  text-align: center;
+}
+#contact-ques div {
+  padding-bottom: 2rem;
+  font-family: "Hubballi", cursive;
+}
+.white-spa {
+  padding: 3rem;
+  display: flex;
+}
 
 .footer {
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    align-items: center;
-    background-color: maroon;
-  
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  align-items: center;
+  background-color: maroon;
+  font-family: "Hubballi", cursive;
 }
-.footer img{
-    padding-bottom: 3rem;
+.footer img {
+  padding-bottom: 3rem;
 }
-
-
-
 
 /*Work Page*/
 
-.Work div{
-    padding-bottom: 3rem;
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    
+.Work div {
+  padding-bottom: 3rem;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family: "Hubballi", cursive;
 }
-.study div{
-    padding-bottom: 3rem;
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-
+.study div {
+  padding-bottom: 3rem;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family: "Hubballi", cursive;
 }
-.Work h2{
-    text-align: center;
+.Work h2 {
+  text-align: center;
 }
-.study h2{
-    text-align: center;
-
-
+.study h2 {
+  text-align: center;
 }
 
-
-#pdf-img{
-    width: 100px;
+#pdf-img {
+  width: 100px;
 }
 
-#work-img{
-    width: 80%;
-    padding-left: 6.3rem;
-    display: flex;
+#work-img {
+  width: 80%;
+  padding-left: 6.3rem;
+  display: flex;
 }
-#study-img{
-    width: 80%;
-    padding-left: 6.3rem;
-    display: flex;
+#study-img {
+  width: 80%;
+  padding-left: 6.3rem;
+  display: flex;
 }
-.Work h2{
-    padding-bottom: 1rem;
+.Work h2 {
+  padding-bottom: 1rem;
 }
-#work-his{
-    margin: 5%;
-    padding: 5%;
+#work-his {
+  margin: 5%;
+  padding: 5%;
+  font-family: "Hubballi", cursive;
 }
-#study-his{
-    margin: 5%;
-    padding: 5%;
+#study-his {
+  margin: 5%;
+  padding: 5%;
+  font-family: "Hubballi", cursive;
+}
 
-}
-
-
-.red-sp{
-    margin: 5%;
+.red-sp {
+  margin: 5%;
 }
 
 /*Experince Page*/
 
-
 /*Interests section */
-.interests{
-    background-color: lightgray;
-    flex-wrap: wrap;
+.interests {
+  background-color: lightgray;
+  flex-wrap: wrap;
+  font-family: "Hubballi", cursive;
 }
 
-#int-grouped{
-    display: flex;
-    padding-bottom: 4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-    
-
+#int-grouped {
+  display: flex;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.interests p{
-    padding: 2rem;
-    text-align: center;
+.interests p {
+  padding: 2rem;
+  text-align: center;
 }
 
-.interests h2{
-    padding: 1.2rem;
-    text-align: center;
+.interests h2 {
+  padding: 1.2rem;
+  text-align: center;
 }
 
 /*skills section */
-#skills-grouped{
-    display: flex;
-    padding-bottom: 4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+#skills-grouped {
+  display: flex;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills {
+  background-color: lightgray;
+  flex-wrap: wrap;
+  font-family: "Hubballi", cursive;
+}
+.skills p {
+  padding: 2rem;
+  text-align: center;
+}
 
-}
-.skills{
-    background-color: lightgray;
-    flex-wrap: wrap;
-}
-.skills p{
-    padding: 2rem;
-    text-align: center;
-}
-
-.skills h2{
-    padding: 1.2rem;
-    text-align: center;
+.skills h2 {
+  padding: 1.2rem;
+  text-align: center;
 }
 /*Personality section */
 
-#perso-grouped{
-    display: flex;
-    padding-bottom: 4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+#perso-grouped {
+  display: flex;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.personality {
+  background-color: lightgray;
+  flex-wrap: wrap;
+  font-family: "Hubballi", cursive;
+}
+.personality p {
+  padding: 2rem;
+  text-align: center;
+}
 
-}
-.personality{
-    background-color: lightgray;
-    flex-wrap: wrap;
-}
-.personality p{
-    padding: 2rem;
-    text-align: center;
-}
-
-.personality h2{
-    padding: 1.2rem;
-    text-align: center;
+.personality h2 {
+  padding: 1.2rem;
+  text-align: center;
 }
 
 /*Blog section */
 
-
-.blog{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 3rem;
-    
-
+.blog {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  padding-top: 10rem;
 }
 
-
-#blog-h2{
-    text-align: center;
-    padding: 3rem;
-    background-color: #9b111e;
+.blog-h2 {
+  text-align: center;
+  padding: 3rem;
+  background-color: #9b111e;
+  height: 30%;
+  font-family: "Hubballi", cursive;
 }
 
-.blog p{
-    padding: 2rem;
+.blog p {
+  padding: 2rem;
+  font-family: "Hubballi", cursive;
 }
-
 
 @media only screen and (min-width: 703px) and (max-width: 1496px) {
+  /*nav*/
+  nav ul li {
+    padding: 4.2rem;
+  }
 
+  nav ul li a {
+    font-size: 20px;
+  }
+  /*index page ipad*/
+  #h2-contact {
+    font-size: 25px;
+  }
 
-    /*nav*/
-    nav ul li{
-    padding:  4.2rem;
-     
-    }
+  .h2-index {
+    padding: 5rem;
+    font-size: 45px;
+  }
 
-    
-    nav ul li a {
-        font-size: 20px;
+  #pic-me {
+    width: 600px;
+  }
+  #h2-contact {
+    font-size: 60px;
+  }
+  #contact-form {
+    font-size: 35px;
+  }
 
-    }
-    /*index page ipad*/
-    #h2-contact {
-        font-size: 25px;
-    }
+  #contact-form input {
+    width: 40rem;
+    height: 10rem;
+  }
+  /*Work page ipad*/
 
-    .h2-index {
-        padding: 5rem;
-        font-size: 45px;
-    }
+  #work-his li {
+    padding-bottom: 5rem;
+  }
+  #study-his li {
+    padding-bottom: 5rem;
+  }
+  .study div h2 {
+    padding-bottom: 3rem;
+    font-size: 80px;
+  }
+  .work div h2 {
+    padding: 2rem;
+  }
+  .Work h2 {
+    font-size: 80px;
+    padding-bottom: 3rem;
+  }
+  .Work div p {
+    font-size: 30px;
+  }
+  #work-his {
+    font-size: 30px;
+  }
+  .study div p {
+    font-size: 30px;
+  }
+  #study-his {
+    font-size: 30px;
+  }
 
-    #pic-me{
-        width: 600px;
-    }
-    #h2-contact{
-        font-size: 60px;
-    }
-    #contact-form{
-        font-size: 35px;
-    }
-     
-    #contact-form input{
-        width: 40rem;
-        height: 10rem;
-    }
-    /*Work page ipad*/
+  /*Experince page ipad*/
 
-    #work-his li{
-        padding-bottom: 5rem;
+  .interests {
+    margin: 5%;
+  }
+  .skills {
+    margin: 5%;
+  }
+  .personality {
+    margin: 5%;
+  }
+  .personality div h2 {
+    font-size: 40px;
+  }
+  .skills div h2 {
+    font-size: 40px;
+  }
 
-    }
-    #study-his li{
-        padding-bottom: 5rem;
-    }
-    .study div h2{
-        padding-bottom: 3rem;
-        font-size: 80px;
-    }
-    .work div h2{
-        padding: 2rem;
-    }
-    .Work h2 {
-        font-size: 80px;
-        padding-bottom: 3rem;
-
-    }
-    .Work div p{
-        font-size: 30px;
-    }
-    #work-his{
-        font-size: 30px;
-    }
-    .study div p{
-        font-size: 30px;
-    }
-    #study-his{
-        font-size: 30px;
-    }
-   
-    /*Experince page ipad*/
-
-    .interests{
-        margin: 5%;
-    }
-    .skills{
-        margin: 5%;
-    }
-    .personality{
-        margin: 5%;
-    }
-    .personality div h2{
-        font-size: 40px;
-    }
-    .skills div h2{
-        font-size: 40px;
-    }
-    
-    .interests div h2{
-        font-size: 40px;
-    }
-        /*Blog page ipad*/
-    #blog-h2{
+  .interests div h2 {
+    font-size: 40px;
+  }
+  /*Blog page ipad*/
+  .blog-h2 {
     font-size: 2.5rem;
-  
-  
-    }
-    .blog{
-        font-size: 2.5rem;
-        padding: 5rem;
-
-    }
-    .blog img{
-        height: 15rem;
-    }
-    .blog p{
-        padding: 5rem;
-    }
+  }
+  .blog {
+    font-size: 2.5rem;
+    padding: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+  }
+  .blog img {
+    height: 15rem;
+  }
+  .blog p {
+    padding: 5rem;
+  }
 }
 
-
-
 @media only screen and (min-width: 1497px) {
-    nav ul li {
-        padding: 7.2rem;
-        
-    }
-    nav ul li a {
+  nav ul li {
+    padding: 7.2rem;
+  }
+  nav ul li a {
     font-size: 100px;
+  }
+  /*index page Web*/
+  #h2-contact {
+    font-size: 45px;
+  }
 
-    }
-   /*index page Web*/
-    #h2-contact {
-        font-size: 45px;
-    }
+  .h2-index {
+    padding: 10rem;
+    font-size: 120px;
+  }
 
-    .h2-index {
-        padding: 10rem;
-        font-size: 120px;
-    }
+  #pic-me {
+    width: 1000px;
+  }
+  #contact-form {
+    font-size: 60px;
+  }
+  #contact-form input {
+    width: 50rem;
+    height: 10rem;
+  }
+  #h1-head h1 {
+    font-size: 200px;
+    text-align: center;
+  }
+  .footer {
+    height: 350px;
+    font-size: 40px;
+  }
+  .footer img {
+    height: 280px;
+  }
+  /*Work page Web*/
+  #work-his li {
+    padding-bottom: 10rem;
+    font-size: 100px;
+  }
+  #study-his li {
+    padding-bottom: 10rem;
+    font-size: 100px;
+  }
+  .study div h2 {
+    padding-bottom: 10rem;
+    font-size: 250px;
+  }
+  .study div p {
+    padding-bottom: 10rem;
+    font-size: 100px;
+  }
+  .Work div h2 {
+    padding-bottom: 10rem;
+    font-size: 250px;
+  }
+  .Work div p {
+    padding-bottom: 10rem;
+    font-size: 100px;
+  }
+  #pdf-img {
+    width: 500px;
+    height: 500px;
+  }
+  /*Experince page Web*/
 
-    #pic-me{
-        width: 1000px;
-    }
-    #contact-form{
-        font-size: 60px;
-    }
-    #contact-form input{
-        width: 50rem;
-        height: 10rem;
-    }
-    #h1-head h1 {
-        font-size: 200px;
-        text-align: center;
-    }
-    .footer{
-        height: 350px;
-        font-size: 40px;
+  .interests {
+    margin: 10%;
+    height: 700px;
+  }
+  .skills {
+    margin: 10%;
+    height: 700px;
+  }
+  .personality {
+    margin: 10%;
+    height: 800px;
+  }
+  .personality div h2 {
+    font-size: 100px;
+  }
+  .personality p {
+    font-size: 60px;
+  }
+  .skills div h2 {
+    font-size: 100px;
+  }
+  .skills p {
+    font-size: 60px;
+  }
 
-    }
-    .footer img{
-        height: 280px;
-        
-    }
-       /*Work page Web*/
-    #work-his li{
-        padding-bottom: 10rem;
-        font-size: 100px;
+  .interests div h2 {
+    font-size: 100px;
+  }
+  .interests p {
+    font-size: 60px;
+  }
+  #int-grouped img {
+    width: 400px;
+  }
+  #skills-grouped img {
+    width: 250px;
+  }
+  #perso-grouped img {
+    width: 250px;
+  }
+  /*Blog page Web*/
 
-    }
-     #study-his li{
-        padding-bottom: 10rem;
-        font-size: 100px;
-    }
-    .study div  h2{
-        padding-bottom: 10rem;
-        font-size: 250px;
-    }
-    .study div  p{
-        padding-bottom: 10rem;
-        font-size: 100px;
-    }
-    .Work div  h2{
-        padding-bottom: 10rem;
-        font-size: 250px;
-    }
-    .Work div  p{
-        padding-bottom: 10rem;
-        font-size: 100px;
-    }
-    #pdf-img{
-        width: 500px;
-        height: 500px;
-    }
-     /*Experince page Web*/
-
-    .interests{
-        margin: 10%;
-        height: 700px;
-    }
-    .skills{
-        margin: 10%;
-        height: 700px;
-    }
-    .personality{
-        margin: 10%;
-        height: 800px;
-    }
-    .personality div h2{
-        font-size: 100px;
-    }
-    .personality p{
-        font-size: 60px;
-    }
-    .skills div h2{
-        font-size: 100px;  
-      }
-    .skills p{
-        font-size: 60px;
-    }
-    
-    .interests div h2{
-        font-size: 100px;
-    }
-     .interests p{
-        font-size: 60px;
-    }
-    #int-grouped img{
-        width: 400px;
-
-    }
-    #skills-grouped img{
-        width: 250px;
-
-    }
-    #perso-grouped img{
-        width: 250px;
-
-    }
-    /*Blog page Web*/
-
-     #blog-h2{
+  .blog-h2 {
     font-size: 5.5rem;
-  
-  
-    }
-    .blog{
-        font-size: 5.5rem;
-        padding: 5rem;
-        padding-top: 10rem;
-        padding-bottom: 40rem;
-
-    }
-    .blog img{
-        height: 55rem;
-    }
-    .blog p{
-        padding: 20rem;
-    }
-
-   
-   
-  
-
-   
-
-
-
-    
-
-
-
+  }
+  .blog {
+    font-size: 5.5rem;
+    padding: 5rem;
+    padding-top: 20rem;
+  }
+  .blog img {
+    height: 55rem;
+  }
 }

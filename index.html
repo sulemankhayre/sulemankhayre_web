@@ -1,165 +1,158 @@
-<! -- Index page/Home Page -->
+<!-- Index- home-page -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
-<header>
+    <header>
+      <!-- Nav bar -->
 
-    <!-- Nav bar -->
- 
+      <nav>
+        <!-- unordered list -->
 
-    <nav>
-          <!-- unordered list -->
-
-    <ul>
-        <li>
-                <!-- links on nav -->
+        <ul>
+          <li>
+            <!-- links on nav -->
             <a href="#">Home</a>
-        </li>
-        <li>
-                <a href="work.html">Work</a>
+          </li>
+          <li>
+            <a href="work.html">Work</a>
+          </li>
+          <li>
+            <a href="experince.html">Experince</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <!-- division -->
 
-        </li>
-        <li>
-                <a href="experince.html">Experince</a>
-
-        </li>
-        <li>
-                <a href="blog.html">Blog</a>
-
-        </li>
-        
-        
-    </ul>
-                    <!-- division -->
-
-       <div id="h1-head">
-             <!-- h1 heading -->
-        <h1>
-            suleman khayre<br><br> Portfolio
-        </h1>
-
-    </div>
-    
-    
-    </nav>
-</header>
-        <!-- main section -->
-
-<main>      
-        <!-- division for white space -->
-
-    <div class="white-sp">
-    </div>
-                        <!-- division for red space -->
-
-     <div class="red-sp">
-         </div>
-     
-    <!-- About me section -->
-        
-        
-        <section class ="about-me-id">
-       <img src="suleman.jpg"id="pic-me" alt="image-about-me">
-         <div class="h2-index">
-        <div>
-       <h2>About me</h2><br>
-       </div>
-       <h4>Name: Suleman Khayre<br><br>Phone: 0426427141<br><br>Email: sulemankhayre8@gmail.com</h4>
-       <p><br>The aspiration to innovate</p>
-        <div class="red-sp">
-         </div>
+        <div id="h1-head">
+          <!-- h1 heading -->
+          <h1>
+            suleman khayre<br /><br />
+            Portfolio
+          </h1>
         </div>
-        
-          <div class="white-sp">
-    </div>
-    
-            </section>
+      </nav>
+    </header>
+    <!-- main section -->
 
+    <main>
+      <!-- division for white space -->
 
-       
-    
-<!-- contact section -->
+      <div class="white-sp"></div>
+      <!-- division for red space -->
 
-    
-    
-<section id="contact-ques">
-    <div id="h2-contact">
-        
-        <h2>Contact</h2>
+      <div class="red-sp"></div>
 
-    </div>
-    <form id="contact-form" action=”mailto:contact@yourdomain.com”
+      <!-- About me section -->
 
-        method=”POST”
+      <section class="about-me-id">
+        <img src="suleman.jpg" id="pic-me" alt="image-about-me" />
+        <div class="h2-index">
+          <div>
+            <h2>About me</h2>
+            <br />
+          </div>
+          <h4>
+            Name: Suleman Khayre<br /><br />Phone: 0426427141<br /><br />Email:
+            sulemankhayre8@gmail.com
+          </h4>
+          <p><br />The aspiration to innovate</p>
+          <div class="red-sp"></div>
+        </div>
 
-        enctype=”multipart/form-data”
+        <div class="white-sp"></div>
+      </section>
 
-        name=”EmailForm”>
+      <!-- contact section -->
 
+      <section id="contact-ques">
+        <div id="h2-contact">
+          <h2>Contact</h2>
+        </div>
+        <div>
+          <form
+            id="contact-form"
+            action="”mailto:contact@yourdomain.com”"
+            name="”EmailForm”"
+          >
+            <br /><br />
+            <label for="contactname1">Name:</label>
+            <br />
+            <input
+              type="text"
+              id="contactname1"
+              name="contactname1"
+              required
+              minlength="4"
+              maxlength="15"
+              size="19"
+            />
 
-       <br><br>
-        <p> Name:</p>
-        <br>
-        <input type=”text” size=”19″ name=”contactname”><br><br>
+            <br /><br />
 
-        
-        <br><br>
-        <p>Email:</p>
-        <br>
-        <input type=”text” size=”19″ name=”contactname”><br><br>
+            <br /><br />
+            <label for="contactname2">Email:</label>
+            <br />
+            <input
+              type="text"
+              id="contactname2"
+              name="contactname"
+              required
+              minlength="4"
+              maxlength="20"
+              size="19"
+            />
 
-         <br><br>
-        <p>Message:</p>
-        <br>
-        <input type=”text” size=”19″ name=”contactname”><br><br>
+            <br /><br />
+            <label for="contactname3">Message:</label>
+            <br />
+            <input
+              type="text"
+              id="contactname3"
+              name="contactname"
+              required
+              minlength="4"
+              maxlength="20"
+              size="19"
+            />
+          </form>
+        </div>
 
-    </form>
-    </div>
-       
-          <div class="white-sp">
-    </div>
-     <div class="white-sp">
-    </div>
-     <div class="white-sp">
-    </div>
+        <div class="white-sp"></div>
+        <div class="white-sp"></div>
+        <div class="white-sp"></div>
+      </section>
+    </main>
 
+    <!-- footer section -->
 
-</section>  
- 
-</main>   
-    
- <!-- footer section -->
-       
-<footer class="footer">
-    <div>
-     <a href="https://github.com/sulemankhayre">
-        <img src="github.jpg" alt="github-img" href="https://github.com/sulemankhayre">
-       </a>
+    <footer class="footer">
+      <div>
+        <a href="https://github.com/sulemankhayre">
+          <img src="github.jpg" alt="github-img" />
+        </a>
 
         <a href="https://www.reddit.com/user/Silver_Dragonfruit66">
-        <img src="reddit.jpg" alt="reddit-png">
+          <img src="reddit.jpg" alt="reddit-png" />
+        </a>
+
         <a href="https://www.linkedin.com/in/suleman-khayre-492547233/">
-        <img src="linkedin.jpeg" alt="linkedin-png">
+          <img src="linkedin.jpeg" alt="linkedin-png" />
         </a>
         <div>
-     	<p>&copy; Suleman khayre</p>
+          <p>&copy; Suleman khayre</p>
         </div>
- </div>
-     
-      
-</footer>
-
-
-
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
